@@ -4,6 +4,8 @@ const hoursSpan = document.querySelector('#hours')
 const minutesSpan = document.querySelector('#minutes')
 const secondsSpan = document.querySelector('#seconds')
 const newYear = document.querySelector('#new-year')
+const buttonMusic = document.querySelector('.button-start')
+const audio = document.querySelector('#audio')
 
 const now = new Date()
 
@@ -42,6 +44,10 @@ const fireworks = new Fireworks(fireworkContainer, {
     gravity: 4,
     particles: 400,
     explosion: 10
+})
+
+buttonMusic.addEventListener('click', () => {
+    audio.play()
 })
 
 fireworks.start()

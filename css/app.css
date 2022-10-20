@@ -88,6 +88,22 @@ body {
     font-weight: 500;
 }
 
+.button-start {
+    padding: 15px;
+    outline: none;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid;
+    margin-top: 20px;
+    transition: all .3s ease-in-out;
+}
+.button-start:hover {
+    background-color: var(--timer-box-bg);
+    border-color: white;
+    color: white;
+}
+
 @media only screen and (max-width: 1200px) {
     html {
         font-size: 60%;
