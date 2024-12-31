@@ -1,10 +1,5 @@
 # new-year-countdown-fireworks
-
-    Responsive New Year Countdown With Fireworks Using HTML CSS JavaScript
-
-# Video tutorial
-
-    https://youtu.be/Nb9beB3tBtE
+(https://hoangcm0109.github.io/CountDown/)
 
 # Resource
 
